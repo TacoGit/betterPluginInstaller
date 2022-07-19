@@ -29,6 +29,7 @@ def Done():
 # 💬 It goes from windows to linux, this part should be fast.
 def MoveToPluginsFolder():
     try:
+        print("[?] If u did not see an success print, it has errored. Either drag the plugins urself or remove all plugins in the BetterDiscord.")
         print("[..] Searching for plugins folder..")
 
         TestOne = str(os.getenv('APPDATA') + "\\BetterDiscord\\plugins")
